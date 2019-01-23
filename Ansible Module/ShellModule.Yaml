@@ -1,4 +1,5 @@
 ---
+# variables like $HOME and operations like "<", ">", "|", ";" and "&" will  work 
  - hosts: dev
    tasks:
     - name : Create a simple file using shell module
