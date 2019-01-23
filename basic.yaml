@@ -1,6 +1,0 @@
----
-- hosts: dev
-  tasks:
-   - name: Test Connection
-     ping:
-...
