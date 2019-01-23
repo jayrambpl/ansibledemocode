@@ -1,0 +1,8 @@
+---
+- hosts: dev
+  tasks: 
+   - name: This will install Apache server on the remote machine
+     apt:
+      upgrade: yes
+
+...
