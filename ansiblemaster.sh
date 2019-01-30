@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# Developed by Labit Training 
+
 #This script needs to be run on Ansible Master server , it does the following 
 #   1. Add Ansible repository
 #   2. Update the system
