@@ -1,11 +1,15 @@
 #! /bin/bash
 
+# Developed by Labit Training
+
 #This script will prep the client machine for ansible automation scripts to be done. It does the following three things :
 #   1. Install openssh server
 #   2. Open firewall port 22
 #   3. Install Python
 
-# run this script with administrator privileges
+# Please run this script with administrator privileges, you can run the script with following command
+# chmod u+x remotemachine.sh
+# sudo ./remotemachine.sh
 
 
 
