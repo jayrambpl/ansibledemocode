@@ -1,0 +1,9 @@
+[dev]
+dev1
+
+[prod]
+prod1
+
+[all]
+dev1
+prod1
