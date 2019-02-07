@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# Developed by Labit Training 
+# Developed by Labit Training as course material for ansible master class
 
 #This script needs to be run on Ansible Master server , it does the following 
 #   1. Add Ansible repository
