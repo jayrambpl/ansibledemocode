@@ -3,8 +3,8 @@
  - hosts: dev
    tasks:
    - name: use argv to send the command as a list.  Be sure to leave command empty
-     command: touch myfile1.txt                   
+     command: touch "{{ test_file }}"                   
      args:
-       chdir: /home/vikas/Documents/
-       creates: myfile1.txt
+       chdir: "{{ test_dir }}"
+       creates: "{{ test_file }}"
 ... 
