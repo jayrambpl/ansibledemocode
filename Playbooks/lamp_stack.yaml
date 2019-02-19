@@ -13,11 +13,11 @@
         - php
         - php-mysql
        state: latest
-       update_cache: yes
+
       notify: 
        - start apache
        - start mysql-server
-       - create target directory
+      # - create target directory
        - deploy index.html
 
    handlers:
@@ -33,8 +33,8 @@
        state: started
        enabled: yes
     
-    - name: create target directory
-      file: path=/var/www/html state=directory mode=0755
+   # - name: create target directory
+   #   file: path=/var/www/html state=directory mode=0755
 
     - name: deploy index.html
       copy:
