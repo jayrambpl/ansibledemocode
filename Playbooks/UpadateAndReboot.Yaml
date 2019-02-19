@@ -6,5 +6,6 @@
       upgrade: full 
    - name: This will reboot the machine
      reboot:
+      reboot_timeout: 600
 
 ...  

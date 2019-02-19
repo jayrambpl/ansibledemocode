@@ -6,7 +6,7 @@
      command: touch "{{ test_file }}"                   
      args:
        chdir: "{{ test_dir }}"
-       #creates: "{{ test_file }}"
+       creates: "{{ test_file }}"
        #chdir: /home/vikas/Documents/
        #creates: myfile1.txt
 ... 
