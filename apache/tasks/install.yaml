@@ -1,0 +1,7 @@
+---
+#Install apache
+- name: install apache
+  apt: 
+   name: httpd
+   state: latest
+...
