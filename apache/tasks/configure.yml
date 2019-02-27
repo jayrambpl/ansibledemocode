@@ -1,9 +1,9 @@
 ---
 #configuring web server
 
--name: deploying configuration file
- copy: src=httpd.conf dest=/etc/httpd/conf/httpd.conf
- notify: restart apache 
+- name: deploying configuration file
+  copy: src=apache2.conf dest=/etc/apache2/apache2.conf
+  notify: restart apache
 
 
 # Add sample html file

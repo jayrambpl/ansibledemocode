@@ -1,6 +1,6 @@
 ---
 # tasks file for apache
-- include: install.yaml
+- include: install.yml
 - include: configure.yml
-- include: services.yaml
+- include: services.yml
 ...
