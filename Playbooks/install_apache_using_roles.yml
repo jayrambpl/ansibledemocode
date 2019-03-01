@@ -8,6 +8,6 @@
       - "ansible_date_time is of type {{ ansible_date_time | type_debug }} "
       - " ansible_architecture is of type {{ ansible_architecture | type_debug }}"
   roles: 
-   - apache
+   - ../roles/apache
 
 ...
