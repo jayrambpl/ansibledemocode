@@ -38,7 +38,7 @@
 
     - name: deploy index.html
       copy:
-       src: /tmp/index.html
+       src: ~/Documents/ansible/index.html
        dest: /var/www/html/index.html
 
 ...
